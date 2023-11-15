@@ -20,8 +20,9 @@ function App() {
 
   return (
     <>
-    <MobileNav/>
-    <div id={theme}>
+      <div id={theme}>
+        <ToastContainer />
+        <MobileNav />
       <Layout/>
       <div className='container'></div>
       <About/>

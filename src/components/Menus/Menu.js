@@ -68,7 +68,6 @@ function Menu({ toggle }) {
                   to="home"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcHome />
@@ -79,7 +78,6 @@ function Menu({ toggle }) {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcAbout />
@@ -90,7 +88,6 @@ function Menu({ toggle }) {
                   to="education"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcReadingEbook />
@@ -102,7 +99,6 @@ function Menu({ toggle }) {
                   to="techstack"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <DiTechcrunch />
@@ -114,7 +110,6 @@ function Menu({ toggle }) {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcVideoProjector />
@@ -125,7 +120,6 @@ function Menu({ toggle }) {
                   to="work"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcPortraitMode />
@@ -136,7 +130,6 @@ function Menu({ toggle }) {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-100}
                   duration={100}
                 >
                   <FcBusinessContact />

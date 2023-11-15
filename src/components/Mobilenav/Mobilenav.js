@@ -53,7 +53,6 @@ const MobileNav = () => {
                     to="home"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -66,7 +65,6 @@ const MobileNav = () => {
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -79,7 +77,6 @@ const MobileNav = () => {
                     to="education"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -93,7 +90,6 @@ const MobileNav = () => {
                     to="techstack"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -107,7 +103,6 @@ const MobileNav = () => {
                     to="projects"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -120,7 +115,6 @@ const MobileNav = () => {
                     to="work"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >
@@ -133,7 +127,6 @@ const MobileNav = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-100}
                     duration={100}
                     onClick={handleMenuClick}
                   >

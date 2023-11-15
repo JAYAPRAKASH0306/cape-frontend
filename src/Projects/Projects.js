@@ -1,5 +1,13 @@
 import React from "react";
 import "./Projects.css";
+import ecomimg from"../../src/assets/ecom.jpg"
+import Portfolio from"../../src/assets/portfolio-fsd.jpg"
+import lms from "../../src/assets/Lms.jpg"
+import psr from "../../src/assets/password-resetjpg.jpg"
+import { BsGithub } from "react-icons/bs";
+import { SiNetlify } from "react-icons/si";
+
+
 const Projects = () => {
   return (
     <>
@@ -10,56 +18,38 @@ const Projects = () => {
         <hr />
         <p className="pb-3 text-center">
           I have done a project which related to Mern Stack 
-
         </p>
-        {/* card design */}
-        <div className="row" id="ads">
-            <div className="col-md-4">
+        {/* card design 1*/}
+        <div className="row " id="ads" >
+          {[
+            {img:ecomimg, title: "Ecommerce Shopping Website", badges: ["Node", "Express", "React", "Mongodb"],git:["https://github.com/JAYAPRAKASH0306/myreduxecommerceapp"],net:["https://jp-ecommerce-redux.netlify.app/"]},
+            {img:Portfolio, title: "Portfolio Website", badges:["Node", "Express", "React", "Mongodb"],git:["https://github.com/JAYAPRAKASH0306/cape-frontend"],net:["https://enchanting-bavarois-ebedb0.netlify.app/"]},
+            {img:lms, title: "Learning Management System", badges:["Node", "Express", "React", "Mongodb"],git:["https://github.com/JAYAPRAKASH0306/my-library-managementapp"],net:["https://library-management-systemformic.netlify.app/"]},
+            {img:psr, title: "Password Reset System", badges: ["Node", "Express", "React", "Mongodb"],git:["https://github.com/JAYAPRAKASH0306/Reset-password-frontend"],net:["https://delightful-yeot-9bb0f1.netlify.app/"]}
+          ].map((card, index) => (
+            <div className="col-md-5 pb-4" key={index}>
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Full stack</span>
-                  <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
-                    alt="project1"
-                  />
+                  {/* <span className="card-notify-badge">{card.title}</span> */}
+                  <img src={card.img} alt={card.title} />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">react</span>
-                  <span className="card-detail-badge">Mongodb</span>
+                  {card.badges.map((badge, index,git,net) => (
+                    <span className="card-detail-badge" key={index}>{badge}</span>
+                  ))}
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
-                      Ecommerce Shopping Website
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
-                  <img
-                    src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
+                    <h6 className="text-uppercase">{card.title}</h6>
+                    <a href={card.git}><BsGithub color="black" size={30} className="ms-4" /></a>
+                    <a href={card.net}><SiNetlify color="blue" size={30} className="ms-4" />
+</a>
 
-                  <span className="card-detail-badge">Mongodb</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">URL shortner</h5>
                   </div>
                 </div>
               </div>
             </div>
+          ))}
         </div>
       </div>
     </>

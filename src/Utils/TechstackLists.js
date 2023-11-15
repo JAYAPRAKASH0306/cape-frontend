@@ -1,15 +1,17 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
+import { FaAws } from "react-icons/fa6";
+
 import { FaNodeJs } from "react-icons/fa";
 import {
   SiJavascript,
-  
   SiReact,
   SiMongodb,
   SiMysql,
-  
+  SiPostman,
   SiGithub,
-  
+  SiNetlify,
   SiExpress,
+  SiRender
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -54,14 +56,36 @@ export const TechstackList = [
     icon: SiMongodb,
   },
   {
-    _id: 9,
+    _id:9,
+    name:"Postman",
+    icon:SiPostman
+  },
+  {
+    _id: 10,
     name: "SQL ",
     icon: SiMysql,
   },
 {
-    _id: 10,
+    _id: 11,
     name: "Git / Github ",
     icon: SiGithub,
   },
+  {
+    _id:12,
+    name:"AWS",
+    icon:FaAws,
+  },
+  {
+ _id:13,
+ name:"Netlify",
+ icon:SiNetlify
+  },
+  {
+    _id:14,
+    name:"Render",
+    icon:SiRender
+   
+  }
+
 
   ];

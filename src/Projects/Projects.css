@@ -1,9 +1,11 @@
+
 .project {
     margin: 50px 0px;
     margin-left: 250px !important;
   }
   .row{
     justify-content: space-evenly;
+    border-radius: 4px;
   }
   .project hr {
     color: #138781;
@@ -30,6 +32,7 @@
     color: black;
     padding: 5px 10px;
     font-size: 14px;
+    
   }
   
   .project .card img {
@@ -38,7 +41,8 @@
   }
   
   .card-detail-badge {
-    background-color: #e0b50f;
+    background-color:  #dad9d8
+    ;
     text-align: center;
     border-radius: 30px 30px 30px 30px;
     color: black;
@@ -64,7 +68,7 @@
     text-transform: uppercase;
     width: 150px;
     height: 40px;
-    display: block;
+    display: flex;
     text-align: center;
     background-color: #138781;
     color: white;

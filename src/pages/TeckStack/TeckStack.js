@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 const Techstack = () => {
   return (
     <>
-      <div className="container techstack" id="techstack">
+      <div className="container techstack col-12 mt-3 mb-1" id="techstack">
       <RubberBand>
 
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
@@ -20,7 +20,7 @@ const Techstack = () => {
           </p>
           </RubberBand>
 
-        <div className="row">
+        <div className="row ">
           {TechstackList.map((tech) => (
                         <Fade left>
 

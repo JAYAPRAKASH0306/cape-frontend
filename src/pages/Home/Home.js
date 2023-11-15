@@ -27,7 +27,7 @@ function Home() {
         </div>
       <div className='container home-content'>
         <Fade right>
-        <h2>I'am a  Jayaprakash</h2>
+        <h2>I'm  Jayaprakash</h2>
         <h1><Typewriter
   options={{
     strings: ['Full Stack Developer !', 'MERN stack Developer !'],
@@ -44,7 +44,7 @@ function Home() {
                 rel="noreferrer"
                 target="_blank"
 >Hire me</a>
-  <a className='btn btn-cv'href="https://portfolio-backend1-ldze.onrender.com/resume.pdf"
+  <a className='btn btn-cv'href="https://drive.google.com/file/d/1ygbHwgxLoLnMB6NwNyUhz8L0jhCi1Ae7/view?usp=drive_link"
  alt={resume}download='jp.pdf'> My Resume</a>
 
 </div>
