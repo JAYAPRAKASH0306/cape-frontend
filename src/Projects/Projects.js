@@ -41,8 +41,8 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">{card.title}</h6>
-                    <a href={card.git}><BsGithub color="black" size={30} className="ms-4" /></a>
-                    <a href={card.net}><SiNetlify color="blue" size={30} className="ms-4" />
+                    <a href={card.git}className="button-link"target="_blank" rel="noopener noreferrer">GitHub<BsGithub color="black" size={30} className="ms-4" /></a>
+                    <a href={card.net}className="button-link"target="_blank" rel="noopener noreferrer">Netlify<SiNetlify color="blue" size={30} className="ms-4" />
 </a>
 
                   </div>

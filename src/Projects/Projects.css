@@ -104,3 +104,30 @@
       margin-top: 30px;
     }
   }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add margin between button links */
+  }
+  
+  .button-link:hover {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  /* Media query for responsive design */
+  @media screen and (max-width: 600px) {
+    .button-link {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
