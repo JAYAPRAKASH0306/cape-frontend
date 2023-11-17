@@ -44,7 +44,7 @@ function Home() {
                 rel="noreferrer"
                 target="_blank"
 >Hire me</a>
-  <a className='btn btn-cv'href="https://drive.google.com/file/d/1ygbHwgxLoLnMB6NwNyUhz8L0jhCi1Ae7/view?usp=drive_link"
+  <a className='btn btn-cv'href="https://drive.google.com/file/d/1ygbHwgxLoLnMB6NwNyUhz8L0jhCi1Ae7/view?usp=sharing"
  alt={resume}download='jp.pdf'target="_blank" rel="noopener noreferrer"> My Resume</a>
 
 </div>
