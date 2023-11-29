@@ -6,6 +6,7 @@ import { DiTechcrunch } from 'react-icons/di';
 import { Link } from 'react-scroll';
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import jpimg from "../../assets/Jayaprakashimg.jpg"
 
 function Menu({ toggle }) {
   return (
@@ -14,7 +15,7 @@ function Menu({ toggle }) {
         <>
           <Zoom>
             <div className='navbar-profile-pic'>
-              <img src="https://portfolio-backend1-ldze.onrender.com/img" alt={resumephoto} />
+              <img src={jpimg} alt={resumephoto} />
             </div>
           </Zoom>
           <Fade left>
