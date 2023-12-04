@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import resumephoto from '../../assets/resume photo.jpeg'
 import Jump from "react-reveal/Jump";
 
 
@@ -15,7 +14,7 @@ function About() {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
                 src={"https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"}
-                alt={resumephoto}
+                alt={"fsd"}
               />
             </div>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">

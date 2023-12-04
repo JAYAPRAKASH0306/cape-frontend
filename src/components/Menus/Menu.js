@@ -1,6 +1,5 @@
 import React from 'react';
 import './Menu.css';
-import resumephoto from '../../assets/resume photo.jpeg';
 import { FcAbout, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector } from 'react-icons/fc';
 import { DiTechcrunch } from 'react-icons/di';
 import { Link } from 'react-scroll';
@@ -15,7 +14,7 @@ function Menu({ toggle }) {
         <>
           <Zoom>
             <div className='navbar-profile-pic'>
-              <img src={jpimg} alt={resumephoto} />
+              <img src={jpimg} alt={jpimg} />
             </div>
           </Zoom>
           <Fade left>
