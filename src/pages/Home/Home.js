@@ -40,11 +40,11 @@ function Home() {
 <Fade bottom>
 <div className='home-buttons'>
   <a className='btn btn-hire'
-  href='https://api.whatsapp.com/send?phone=7539909481'
+  href='https://www.linkedin.com/in/jayaprkashk/'
                 rel="noreferrer"
                 target="_blank"
->Hire me</a>
-  <a className='btn btn-cv'href="https://drive.google.com/file/d/16q1xJH_NLahST6n18AC9rimSfFK68_At/view?usp=drive_link"
+>Linkedin</a>
+  <a className='btn btn-cv'href="https://drive.google.com/file/d/1ZXqjmpd8PZ-CKVH-TWC6qgShGhQbEfIs/view?usp=sharing"
  alt={resume}download='jp.pdf'target="_blank" rel="noopener noreferrer"> My Resume</a>
 
 </div>
