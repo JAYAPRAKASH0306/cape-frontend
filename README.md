@@ -1,4 +1,5 @@
-portfolio link:https://portfolio-jp-0306.netlify.app/
+portfolio link:https://portfolio-jp-jayaprakash.netlify.app/
+https://portfolio-jp-0306.netlify.app/
 old links :https://jayaprakashportfoliofsd.netlify.app/
 https://jayaprakash-portfolio-fsd.netlify.app/
 
